@@ -8,11 +8,11 @@
 
     --scrollbar-auto-thumb: rgb(223, 195, 200);
     --brand-experiment: rgb(204, 165, 172);
-    --brand-experiment-560: rgb(204, 168, 175);
+    --brand-experiment-560: rgb(204, 1, 1);
     --brand-experiment-500: rgb(184, 122, 133);
     --selection-col: rgba(184, 122, 133, 0.6);
     --background-accent: rgb(236, 67, 90);
-    --local-bot-side: rgb(236, 1, 1);
+    --local-bot-side: rgb(236, 67, 90);
 }
 
 .theme-dark {
