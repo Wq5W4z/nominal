@@ -6,7 +6,13 @@
     --font-headline: -apple-system,BlinkMacSystemFont,system-ui;
     --font-code: 'Iosevka','Iosevka Web';
 
-
+    --scrollbar-auto-thumb: rgb(223, 195, 200);
+    --brand-experiment: rgb(204, 165, 172);
+    --brand-experiment-560: rgb(204, 168, 175);
+    --brand-experiment-500: rgb(184, 122, 133);
+    --selection-col: rgba(184, 122, 133, 0.6);
+    --background-accent: rgb(236, 67, 90);
+    --local-bot-side: rgb(236, 67, 90);
 }
 
 .theme-dark {
@@ -22,43 +28,7 @@
     --home-background: var(--background-primary);
 }
 
-::selection {background: var(--selection-col) !important;}
-
-.theme-dark .container-1um7CU,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB, .theme-dark [class^="directoryModal-"] {
-    background-color: var(--background-secondary-alt);
-}
-
-.theme-light .wrapper-1_HaEi,.theme-light .scroller-3X7KbA {
-    background: linear-gradient(rgb(0 0 0 / 20%), rgb(109 54 54 / 20%)),var(--bg-overlay-4,var(--background-secondary)) !important;
-}
-.theme-dark .wrapper-1_HaEi,.theme-dark .scroller-3X7KbA {
-    background: linear-gradient(rgb(117 117 117 / 10%), rgb(156 108 108 / 10%)),var(--bg-overlay-4,var(--background-secondary)) !important;
-}
-
-[role="navigation"] {
-    background: none !important;
-}
-
-div[class*="checked-"] {
-    background-color: var(--brand-experiment-500) !important;
-}
-svg[class^="slider-"] path {
-    fill: var(--brand-experiment-560);
-}
-
-[class*="connectedAccountOpenIcon-"] {
-    -webkit-mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg height='22' viewBox='100 200 960 960' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h279v60H180v600h600V597h60v279q0 24-18 42t-42 18H180Zm202-219-42-43 398-398H519v-60h321v321h-60V319L382 717Z' fill='currentColor' /%3E%3C/svg%3E");
-    -webkit-mask-repeat: no-repeat;
-    background-color: currentColor;
-    transform: scale(1);
-}
-
-nav [aria-label="User Settings"] div[class^="info-"] > span:last-child::after {
-    content: "\a\aNominal";
-    white-space: pre;
-    color: var(--brand-experiment);
-    font: 20pt/0.4 var(--font-code);
-}
+//
 
 .theme-dark .withFrame-haYltI {
     background: linear-gradient(rgb(117 117 117 / 10%), rgb(117 117 117 / 10%)),var(--bg-overlay-4,var(--background-secondary));
