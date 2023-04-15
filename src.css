@@ -12,7 +12,7 @@
     --brand-experiment-500: rgb(184, 122, 133);
     --selection-col: rgba(184, 122, 133, 0.6);
     --background-accent: rgb(236, 67, 90);
-    --local-bot-side: rgb(236, 67, 90);
+    --local-bot-side: rgb(236, 1, 1);
 }
 
 .theme-dark {
